@@ -15,8 +15,8 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-3">What does an egg say when it's lit?</h1>
-    <button class="btn" onclick="myFunction()">Show</button>
-    <div id="Answer">Om-let</div>
+    <button class="btn" onclick="toggle_visibility('Answer');">Show</button>
+    <div id="Answer" class="h1">Om-let</div>
   </div>
 </div>
 
@@ -32,14 +32,13 @@
 
 
 <script>
-function myFunction() {
-    var x = document.getElementById("Answer");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
+function toggle_visibility(id) {
+       var e = document.getElementById("Answer");
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+   }
 </script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
