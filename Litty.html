@@ -18,18 +18,17 @@
   <div class="container">
 
     <h1 class="display-3">What does an egg say when it's lit?</h1>
-    <button class="btn btn-primary" onclick="myFunction()" style="margin-top:"0.5%>Show</button>
-    <div id="myDIV" class="h1">Om-lit</div>
+    <a class="btn btn-primary" href="javascript:showhide('uniquename')" style="margin-top:0.5%"> Show</a>
+    <div id="uniquename" style="display:none;">
+	  <p class=h1>Om-lit</p>
+	</div>
+
     
-    <script>
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
+<script type="text/javascript">
+   function showhide(id) {
+       	var e = document.getElementById(id);
+       	e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+     }
 </script>
     
   </div>
