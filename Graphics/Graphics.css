@@ -22,5 +22,14 @@ li a:hover {
 	background-color: #111;
 }
 
+.active {
+    background-color: ##fffff4;
+}
+
+menu {
+	max-width: 50;
+	margin:auto;
+}
+
 /* CSS Document */
 
