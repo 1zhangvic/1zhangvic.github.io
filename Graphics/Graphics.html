@@ -5,19 +5,40 @@
 	Vicks - Graphics Design
 </title>
 
-
-<Header>
-<div style="menu">
-	<ul><li><a class="active" href="#">Vicks</a></li>
-	<li><a href="zhangvic.me">Home</a></li></ul>
+<div class="menu">
+	<ul>
+	<li><a class="active" href="#">Vicks</a></li>
+	<li><a href="zhangvic.me">Home</a></li>
+	</ul>
 </div>
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Projects</a>
+  <a href="#">Contact</a>
+</div>
 
-	
-</Header>
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
 
-<body>
+<body id="main">
+
 	Hi this is Victor
 </body>
 
