@@ -2,7 +2,9 @@ html {
     margin: 0px;
     padding: 0px;
 	background-color:#fffff2;
-	font-family: 
+	font-family:
+	position: relative;
+	min-height: 100%;
 }
 
 body {
@@ -17,6 +19,16 @@ body {
 header {
 	margin:0px; 
 	padding: 0px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
+	color:gainsboro;
+	text-align: center; 
+	font-family:Droid Sans;
 }
 
 ul {
