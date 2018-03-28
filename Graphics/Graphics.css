@@ -78,6 +78,7 @@ li a:hover {
     transition: margin-left .5s;
 	margin:0px;
 	padding:0px;
+	margin-top: 0px;
 }
 
 @media screen and (max-height: 450px) {
