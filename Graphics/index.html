@@ -8,10 +8,10 @@
 </title>
 
 <header>
-	<ul>
-		<li class="fade"><a style="font-size:20px;cursor:pointer;display:block;padding:10px 12px 11.7px 12px;" onclick="openNav()">&#9776;</a></li>
-		<li style="float:left; position:relative; right:-45%;" class="fade"><a href="#" style="font-family:Times New Roman;font-size: 19px;">V</a></li>
-		<li style="float:right;" class="fade"><a href="../index.html" style="font-family:Open Sans;"><img src="home2.png" width="15px" height="15px"></a></li>
+	<ul class="fade">
+		<li><a style="font-size:20px;cursor:pointer;display:block;padding:10px 12px 11.7px 12px;" onclick="openNav()">&#9776;</a></li>
+		<li style="float:left; position:relative; right:-45%;"><a href="#" style="font-family:Times New Roman;font-size: 19px;">V</a></li>
+		<li style="float:right;"><a href="../index.html" style="font-family:Open Sans;"><img src="home2.png" width="15px" height="15px"></a></li>
 		
 	</ul>
 </header>
@@ -49,13 +49,11 @@ function closeNav() {
     <img src="./Images/Design2.png" style="width:100%;">
     <div class="text">Innovation</div>
   </div>
-
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="./Images/Elegance.jpg" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
-
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="./Images/Innovation.jpg" style="width:100%">
@@ -66,9 +64,8 @@ function closeNav() {
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<br>
 
-<script> var slideIndex = 1;
+	<script> var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -96,7 +93,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }</script>
-
 
 </body>
 
