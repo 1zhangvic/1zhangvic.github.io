@@ -1,9 +1,8 @@
 html {
-	background-color: black;
+	background-color: antiquewhite;
 	margin: 0px;
     padding: 0px;
 	height: 100%;
-	position: relative;
 }
 
 /*  background-image: url(image.jpg);
@@ -51,7 +50,7 @@ li {
 
 li a {
 	display: block;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
