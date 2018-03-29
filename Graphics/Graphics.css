@@ -119,16 +119,14 @@ li a:hover {
 	font-size: 70px;
 	font-family:Helvetica Neue;
 	vertical-align:top;
-	line-height: 100%;
 }
 
 .h2 {
 	font-family: Helvetica Neue;
 	font-size: 20px;
 	color:whitesmoke;
-	text-align: center;
+	text-align: right;
 	padding: 20 0 40 0;
-	float:right;
 	
 }
 
