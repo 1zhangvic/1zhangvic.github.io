@@ -1,5 +1,9 @@
 html {
 	background-color: antiquewhite;
+	background-image: url(./Images/Innovation.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
 	margin: 0px;
     padding: 0px;
 	height: 100%;
