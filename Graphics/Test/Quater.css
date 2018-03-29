@@ -21,10 +21,12 @@ html,body {
 	color: white;
 	
 }
+
 .quarter:hover {
 	background-color:white;
 	color:#7fffff;
 }
+
 .quarter1 {
 	bottom:0;
 	right:0;
@@ -34,7 +36,6 @@ html,body {
 	height:90%;
 }
 .quarter2 {
-	bottom:0;
 	right:0;
 	background-color:#ccffff;
 	border-radius:0 0 100% 0 ;
@@ -44,7 +45,6 @@ html,body {
 	bottom:90%;
 }
 .quarter3 {
-	bottom:0;
 	right:0;
 	background-color:#b2ffff;
 	border-radius:0 0 100% 0 ;
@@ -54,7 +54,6 @@ html,body {
 	bottom:160%;
 }
 .quarter4 {
-	bottom:0;
 	background-color:#99ffff;
 	border-radius:0 0 100% 0 ;
 	width:30%;
