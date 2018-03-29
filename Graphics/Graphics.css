@@ -1,6 +1,6 @@
 html {
 	background-color: antiquewhite;
-	background-image: url(./Images/Innovation.jpg);
+	background-image: url(../background4.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size:cover;
@@ -24,6 +24,7 @@ body {
 header {
 	margin:0px; 
 	padding: 0px;
+	position:static;
 }
 
 footer {
