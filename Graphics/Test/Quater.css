@@ -1,0 +1,76 @@
+html,body {
+	margin:0;
+	padding:0;
+}
+
+
+.main {
+	width:200px;
+	height:200px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+.quarter {
+	width: 80%;
+	height:80%;
+	transition:background-color 0.2s ease-in-out;
+	display:block;
+	float: left;
+	
+}
+.quarter:hover {
+	background-color:pink;
+}
+.quarter1 {
+	bottom:0;
+	right:0;
+	background-color:red;
+	border-radius:0 0 100% 0 ;
+	width: 70%;
+	height:70%;
+}
+.quarter2 {
+	bottom:0;
+	right:0;
+	background-color:blue;
+	border-radius:0 0 100% 0 ;
+	width: 60%;
+	height:60%;
+	position:relative;
+	bottom:70%;
+}
+.quarter3 {
+	bottom:0;
+	right:0;
+	background-color:orange;
+	border-radius:0 0 100% 0 ;
+	width: 50%;
+	height:50%;
+	position:relative;
+	bottom:130%;
+}
+.quarter4 {
+	bottom:0;
+	right:0;
+	background-color:green;
+	border-radius:0 0 100% 0 ;
+	width: 40%;
+	height:40%;
+	position:relative;
+	bottom:130%;
+	right:50%;
+}
+
+	
+.cutout {
+	width:50%;
+	height:50%;
+	background-color:white;
+	position:absolute;
+	top:25%;
+	left:25%;
+	border-radius:50%;
+	pointer-events:none;
+	}
