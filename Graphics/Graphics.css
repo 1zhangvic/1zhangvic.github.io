@@ -198,6 +198,7 @@ li a:hover {
   bottom: 8px;
   width: 100%;
   text-align: center;
+	font-family: Times New Roman;
 }
 
 /* Number text (1/3 etc) */
