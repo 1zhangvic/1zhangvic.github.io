@@ -5,11 +5,14 @@ body {
 }
 
 html {
-	background-image: image("");
+	background-color: black;
 }
 
 body {
-	
+	background-color: white;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 
@@ -22,6 +25,8 @@ body {
 }
 
 .footer {
+	padding-right:2%;
+	padding bottom:2%;
 	text-align: right;
 	font-family: Roboto;
 	font-weight: 700;
@@ -78,3 +83,8 @@ body {
 	background-color: black;
 }
 
+
+.nav {
+	padding-top: 2%;
+	padding-right: 2%;
+}
