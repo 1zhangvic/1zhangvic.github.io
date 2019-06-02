@@ -71,7 +71,10 @@ body {
 
 .iconbar li {
 	list-style-type: none;
-	
+}
+
+.iconbar a img {
+	 float: right;
 }
 
 .iconbar img {
