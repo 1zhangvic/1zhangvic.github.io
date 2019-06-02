@@ -16,6 +16,8 @@ body {
 	text-align: left;
 	font-family: 'Montserrat', bold,sans-serif;
 	font-size: 8rem;
+	padding-top: 2rem;
+	padding-left: 2rem;
 	
 }
 
@@ -32,12 +34,20 @@ body {
 }
 
 .nav li a {
-	padding: 10px 20px;
+	padding: .3em .8em;
 	display: block;
 	text-align: center;
 	font-family: Roboto,sans-serif;
 	font-size: 1em;
+	font-weight: 700;
+	text-decoration: none;
+	color:black;
 }
+
+.nav li a:hover {
+	color: red;
+}
+	
 
 .iconbar li {
 	list-style-type: none;
