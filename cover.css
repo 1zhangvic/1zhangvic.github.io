@@ -21,12 +21,10 @@ body {
 
 .footer {
 	text-align: right;
+	font-family: Arial;
 }
 
-ul {
-	list-style-type: none;
-	
-}
+
 
 .nav li {
 	display:inline;
@@ -34,7 +32,7 @@ ul {
 }
 
 .nav li a {
-	padding: 10 20;
+	padding: 10px 20px;
 	display: block;
 	text-align: center;
 	font-family: Roboto,sans-serif;
