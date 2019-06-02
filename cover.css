@@ -22,3 +22,13 @@ body {
 .footer {
 	text-align: right;
 }
+
+ul {
+	list-style-type: none;
+	
+}
+
+li {
+	display:inline;
+	float:right;
+}
