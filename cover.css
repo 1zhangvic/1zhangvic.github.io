@@ -24,10 +24,12 @@ body {
 }
 
 .footer {
-	padding-right:2%;
+	padding:0 3vw 0 0;
 	text-align: right;
 	font-family: Roboto;
 	font-weight: 700;
+	font-size: .8vw;
+	bottom:0;
 }
 
 
@@ -63,7 +65,7 @@ body {
 .iconbar {
 	position:fixed;
 	width: 100%;
-	top:50%;
+	top:30%;
 }
 
 .iconbar li {
@@ -88,4 +90,5 @@ body {
 .nav {
 	padding-top: 2%;
 	padding-right: 2%;
+	font-size:1vw;
 }
