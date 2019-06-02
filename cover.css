@@ -7,3 +7,14 @@ body {
 
 }
 
+
+.intro {
+	text-align: left;
+	font-family: 'Montserrat', bold,sans-serif;
+	font-size: 8rem;
+	
+}
+
+.footer {
+	text-align: right;
+}
