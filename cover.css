@@ -64,5 +64,10 @@ body {
 	position:fixed;
 	float: right;
 	width: 100%;
+	top:50%;
+}
+
+.iconbar img:hover {
+	color:gray;
 }
 
