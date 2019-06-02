@@ -19,8 +19,8 @@ body {
 .intro {
 	text-align: left;
 	font-family: 'Montserrat', bold,sans-serif;
-	font-size: 8rem;
-	padding-top: 2rem;
+	font-size: 35vh;
+	padding-top: 2%;
 	padding-left: 5%;
 }
 
