@@ -49,10 +49,6 @@ body {
 }
 	
 
-.iconbar li {
-	list-style-type: none;
-	
-}
 
 .menuitem {
 	padding:1%;
@@ -67,7 +63,17 @@ body {
 	top:50%;
 }
 
+.iconbar li {
+	list-style-type: none;
+	
+}
+
+.iconbar img {
+	background-color: transparent;
+	border-radius: 100%;
+}
+
 .iconbar img:hover {
-	color:gray;
+	background-color: black;
 }
 
