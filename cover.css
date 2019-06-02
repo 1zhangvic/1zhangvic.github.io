@@ -62,7 +62,6 @@ body {
 
 .iconbar {
 	position:fixed;
-	float: left;
 	width: 100%;
 	top:50%;
 }
