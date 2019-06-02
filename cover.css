@@ -28,7 +28,32 @@ ul {
 	
 }
 
-li {
+.nav li {
 	display:inline;
 	float:right;
+}
+
+.nav li a {
+	padding: 10 20;
+	display: block;
+	text-align: center;
+	font-family: Roboto,sans-serif;
+	font-size: 1em;
+}
+
+.iconbar li {
+	list-style-type: none;
+	
+}
+
+.menuitem {
+	padding:1%;
+	text-align: center;
+	
+}
+
+.iconbar {
+	position:fixed;
+	float: right;
+	width: 100%;
 }
